@@ -1,12 +1,12 @@
 name: Docker
 
-# Workflow: Sign with cosogn ephemeral key and upload to Github Container Registry (ghcr.io)
+# Workflow: Sign with cosign key and upload to Github Container Registry (ghcr.io)
 # Installs the cosign tool
 # Sets up Docker container Builder to build multi-platform images
 # Logs in github container registry
 # Extracts metadata for better tagging
 # Builds and pushes the image to ghcr.io
-# Signs the resulting container image digest with cosing ephemeral key 
+# Signs the resulting container image digest with cosign 
 
 on:
   #schedule:
